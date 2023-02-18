@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark topbar mb-4 static-top shadow">
+
+	<a class="navbar-brand" href="#">
+		<img src="{{ asset('favicon.png')}}" width="50" height="50" alt="">
+	</a>
+
+	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<li class="nav-item active">
+				<a class="nav-link" href="{{ path('app.home') }}">Dashbord</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link disabled" href="#">Disabled</a>
+			</li>
+		</ul>
+		<form class="form-inline my-2 my-lg-0">
+			<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+				<i class="fas fa-download fa-sm text-white-50"></i>
+				MyReport
+			</a>
+
+			<div class="topbar-divider d-none d-sm-block"></div>
+
+			<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-success shadow-sm">
+				Connexion
+				<i class="fas fa-sign-in-alt fa-sm text-white-50"></i>
+			</a>
+		</form>
+	</div>
+</nav>
+

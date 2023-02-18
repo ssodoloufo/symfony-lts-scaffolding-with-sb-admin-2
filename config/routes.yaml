@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+# wellcome: # -> route_name
+#   path: / # -> route_path
+#   controller: App\Controller\Session\WellcomeController::index # -> route_controller
